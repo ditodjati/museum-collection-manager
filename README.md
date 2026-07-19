@@ -6,7 +6,7 @@ At its core, this project represents a robust implementation of **CRUD (Create, 
 
 ---
 
-## 📝 Project Overview
+## Project Overview
 
 In a real-world museum ecosystem, keeping track of precious historical assets, their structural conditions, and their current display or storage locations presents a critical operational challenge. This application directly addresses those administrative needs by serving as the primary digital registry for the **Shangri-La Museum**—the specific foundational setting established within the source code. It allows museum personnel to seamlessly organize, track, update, and manage a diverse range of invaluable historical items, from prehistoric fossils and ancient weapons to priceless paintings and cultural artifacts.
 
@@ -16,7 +16,7 @@ To ensure an exceptional administrative user experience, the application incorpo
 
 ---
 
-## 📈 Technical Program Flow & Execution Logic
+## Technical Program Flow & Execution Logic
 
 The execution architecture of this program relies on a modular, routing-driven state machine built entirely upon Python's native procedural capabilities. Rather than executing a monolithic block of conditional code, the program decouples its user-interface layers from data mutation logic, utilizing function references mapped to validated user inputs to cleanly navigate between sub-menus.
 
@@ -64,7 +64,7 @@ Because removing data within an in-memory runtime context is a destructive and i
 
 ---
 
-## 💎 Key Features Breakdown
+## Key Features Breakdown
 
 * **Centralized Data Repository (Single Source of Truth):** Data is managed in a uniform list of standardized dictionaries. Every search, addition, update, and removal mutates or references this single array, ensuring total state synchronization across functions.
 * **Dynamic Time Constraints Tracking:** Rather than hardcoding static years for date boundaries (which become obsolete as real-world time moves forward), the program queries the system clock at runtime using the `datetime` module. This ensures the validation logic remains accurate automatically over time.
@@ -74,7 +74,7 @@ Because removing data within an in-memory runtime context is a destructive and i
 
 ---
 
-## 🏛️ Data Structure & Attributes
+## Data Structure & Attributes
 
 Each collection item is stored in memory as a Python dictionary object with the following attribute schema:
 
@@ -91,7 +91,7 @@ Each collection item is stored in memory as a Python dictionary object with the 
 
 ---
 
-## 💡 Developer Notes & Architecture Evolution
+## Developer Notes & Architecture Evolution
 
 > **Crucial Note for Project Reviewers:**
 > This application was architected and built by a **beginner developer** as a fundamental exercise in mastering structured procedural programming, data formatting, and conditional state handling in Python.
@@ -102,7 +102,7 @@ Each collection item is stored in memory as a Python dictionary object with the 
 
 ---
 
-## 🚀 Getting Started & Local Execution
+## Getting Started & Local Execution
 
 ### Prerequisites
 To run this application locally, you must have a Python environment (Python 3.x or higher recommended) installed on your system. The program also requires the third-party formatting library `tabulate`.
