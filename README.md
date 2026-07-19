@@ -18,7 +18,7 @@ To ensure an exceptional administrative user experience, the application incorpo
 
 ## Technical Program Flow & Execution Logic
 
-The execution architecture of this program relies on a modular, routing-driven state machine built entirely upon Python's native procedural capabilities[cite: 3]. Rather than executing a monolithic block of conditional code, the program decouples its user-interface layers from data mutation logic, utilizing function references mapped to validated user inputs to cleanly navigate between sub-menus.
+The execution architecture of this program relies on a modular, routing-driven state machine built entirely upon Python's native procedural capabilities. Rather than executing a monolithic block of conditional code, the program decouples its user-interface layers from data mutation logic, utilizing function references mapped to validated user inputs to cleanly navigate between sub-menus.
 
 Below is the complete algorithmic workflow diagram, followed by an in-depth technical breakdown of how each software branch processes data:
 
